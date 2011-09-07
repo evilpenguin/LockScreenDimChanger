@@ -1,0 +1,9 @@
+Package: com.understruction.lockscreendimchanger
+Name: LockScreenDimChanger
+Depends: mobilesubstrate
+Version: 0.7.0
+Architecture: iphoneos-arm
+Description: Change the dim timer after pressing the home button
+Maintainer: EvilPenguin|
+Author: EvilPenguin|
+Section: Tweaks

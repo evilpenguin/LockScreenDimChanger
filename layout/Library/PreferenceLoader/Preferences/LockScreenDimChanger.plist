@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entry</key>
+	<dict>
+		<key>cell</key>
+		<string>PSLinkCell</string>
+		<key>icon</key>
+		<string>LockScreenDimChanger.png</string>
+		<key>label</key>
+		<string>LockScreenDimChanger</string>
+	</dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>label</key>
+			<string>Lock Screen Dim Timer</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>120</integer>
+			<key>defaults</key>
+			<string>com.understruction.updateTimerSettings</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>LockScreenTimer</string>
+			<key>label</key>
+			<string>Timer</string>
+			<key>validTitles</key>
+			<array>
+				<string>2 Minutes</string>
+				<string>4 Minutes</string>
+				<string>6 Minutes</string>
+				<string>8 Minutes</string>
+				<string>10 Minutes</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>120</integer> 
+				<integer>240</integer>
+				<integer>360</integer>
+				<integer>480</integer>
+				<integer>600</integer>
+			</array>
+			<key>PostNotification</key>
+			<string>com.understruction.updateTimerSettings</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>LockScreenDimChanger © 2011</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>LockScreenDimChanger</string>
+</dict>
+</plist>
